@@ -21,10 +21,10 @@ A playlist can be selected from the dropdown at the top of the right div. To rem
 The color theme of the app can be changed from light to dark and vice versa by clicking the slider button at the top right corner of the page.
 
 ## Additional Considerations
--- A playlist without a name cannot be created
--- The same song cannot be added twice in a playlist.
+- A playlist without a name cannot be created
+- The same song cannot be added twice in a playlist.
 
 ## Built from scratch using
--- HTML
--- CSS
--- Javascript
+- HTML
+- CSS
+- Javascript
