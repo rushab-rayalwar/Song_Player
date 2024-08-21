@@ -1,4 +1,4 @@
-![1](https://github.com/user-attachments/assets/3cddf86f-fae8-4a4e-89d9-c09ab56d8536)# Song Player App
+# Song Player App
 A basic song player application with a visually appealing UI, built using HTML, CSS, and JavaScript. The app plays songs stored locally.
 
 How to use:
