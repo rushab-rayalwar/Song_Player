@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <link href="songPlayerCSS.css" rel="stylesheet" type="text/css">
+    <title>Rushab's Song Player</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+
+        <div class="side-section left">
+            <div id="left-header">
+                <span>All Songs</span>
+                <div id="filter-div">
+                    <i class="fa-solid fa-filter" id="filter-funnel"></i>
+                    <form>
+                        <select id="filter-dropdown">
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div id="left-div-songs">
+
+            </div>
+        </div>
+        
+        <div id="current-song-card">
+            <div id="card-header">
+                <span>Now Playing</span>
+            </div>
+            <div id="card-middle">
+                <img id="current-song-img" src="Song thumbnails/no song.jpg">
+            </div>
+            <div id="card-footer">
+                <div id="song-name-being-played"></div>
+                <div id="artist-of-song-being-played"></div>
+                <div id="playback-controls">
+                    <i class="fa-solid fa-circle-chevron-right playback-buttons" id="previous"></i>
+                    <audio id="audio" controls>
+                        <source src="">
+                    </audio>
+                    <i class="fa-solid fa-circle-chevron-right playback-buttons" id="next"></i>
+                </div>
+                <div id="add-to-playlist">Add To Current Playlist</div>
+            </div>
+        </div>
+
+        <div class="side-section right">
+            <div id="right-header">
+                <span>Current Playlist</span>
+            </div>
+            <div id="right-div-songs">
+                <select id="playlist-name">
+                    <!--<option value="Favourites">Favourites</option>-->
+                </select>
+                <div id="songs-in-current-playlist-div"></div>
+            </div>
+            <div id="left-div-footer">
+                <input type="text" id="new-playlist-name-input" placeholder="New Playlist Name">
+                <i class="fa-solid fa-circle-plus" id="create-playlist-button"></i>
+            </div>
+        </div>
+
+        <div id="switch-theme-button">
+            <span>Theme</span>
+            <button id="theme-button">Switch Theme</button>
+            <div id="slider-for-theme">
+                <label for="theme-button" id="bead"></label>
+                <!--<div id="bead"></div>-->
+            </div>
+        </div>
+
+        <script src="songPlayerJavascript.js"></script>
+        <script src="https://kit.fontawesome.com/fc0a8fd09e.js" crossorigin="anonymous"></script>
+    </main>
+</body>
